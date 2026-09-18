@@ -1,6 +1,7 @@
 package com.myWebApp.JobApp.repo;
 
 import com.myWebApp.JobApp.model.JobPost;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

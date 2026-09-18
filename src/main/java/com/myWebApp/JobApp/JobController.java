@@ -32,6 +32,13 @@ public class JobController {
         jobService.addJob(jobPost);
         return "success";
     }
+
+    @GetMapping("/viewalljobs")
+    public String viewJobs(Model model) {
+        List<JobPost> jobs = jobService.getAllJobs();
+        model.addAttribute("jobPosts", jobs);
+        return "viewalljobs";
+    }
 }
 
 //    @RequestMapping(value = "/handleForm", method = RequestMethod.POST)
