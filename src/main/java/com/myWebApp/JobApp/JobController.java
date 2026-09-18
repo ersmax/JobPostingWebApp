@@ -47,14 +47,15 @@ public class JobController {
 //    }
 
 //    @PostMapping("/handleForm")
-//    public ModelAndView handleForm(int postId, String postProfile, String postDescription,
+//    public ModelAndView handleForm(int postId, String postProfile,
+//                                   @RequestParam("postDesc") String postDesc,
 //                                   @RequestParam("reqExperience") int requiredExperience,
 //                                   @RequestParam("postTechStack") List<String> postTechStack,
 //                                   ModelAndView modelView) {
 //        JobPost jobPost = new JobPost();
 //        jobPost.setPostId(postId);
 //        jobPost.setPostProfile(postProfile);
-//        jobPost.setPostDescription(postDescription);
+//        jobPost.setPostDesc(postDesc);
 //        jobPost.setReqExperience(requiredExperience);
 //        jobPost.setPostTechStack(postTechStack);
 //        modelView.addObject("jobPost", jobPost);
@@ -64,14 +65,15 @@ public class JobController {
 
 
 //    @PostMapping("/handleForm")
-//    public String handleForm(int postId, String postProfile, String postDescription,
+//    public String handleForm(int postId, String postProfile,
+//                             @RequestParam("postDesc") String postDesc,
 //                             @RequestParam("reqExperience") int requiredExperience,
 //                             @RequestParam("postTechStack") List<String> postTechStack,
 //                             Model model) {
 //        JobPost jobPost = new JobPost();
 //        jobPost.setPostId(postId);
 //        jobPost.setPostProfile(postProfile);
-//        jobPost.setPostDescription(postDescription);
+//        jobPost.setPostDesc(postDesc);
 //        jobPost.setReqExperience(requiredExperience);
 //        jobPost.setPostTechStack(postTechStack);
 //        model.addAttribute("jobPost", jobPost);

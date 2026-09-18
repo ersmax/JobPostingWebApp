@@ -64,7 +64,7 @@
 
 						<div class="mb-1">
 							<label for="postDescription" class="form-label">Post Description</label>
-							<textarea class="form-control" id="postDescription" name="postDescription" rows="2" required></textarea>
+							<textarea class="form-control" id="postDescription" name="postDesc" rows="2" required></textarea>
 						</div>
 
 

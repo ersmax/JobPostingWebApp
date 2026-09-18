@@ -52,7 +52,7 @@
                         <h5 class="card-title">${jobPost.postProfile}</h5>
                         <p class="card-text">
                             <strong>Description:</strong>
-                                ${jobPost.postDescription}</p>
+                                ${jobPost.postDesc}</p>
                         <p class="card-text">
                             <strong>Experience Required:</strong>
                                 ${jobPost.reqExperience}
