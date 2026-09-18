@@ -23,7 +23,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
 	<div class="container">
-		<a class="navbar-brand fs-1 fw-medium" href="#">Telusko Job Portal Web App</a>
+		<a class="navbar-brand fs-1 fw-medium" href="#">Job Portal Web App</a>
 		<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false"
@@ -63,8 +63,8 @@
 
 
 						<div class="mb-1">
-							<label for="postDesc" class="form-label">Post Description</label>
-							<textarea class="form-control" id="postDesc" name="postDesc" rows="2" required></textarea>
+							<label for="postDescription" class="form-label">Post Description</label>
+							<textarea class="form-control" id="postDescription" name="postDescription" rows="2" required></textarea>
 						</div>
 
 

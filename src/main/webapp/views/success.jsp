@@ -30,7 +30,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container">
-        <a class="navbar-brand fs-1 fw-medium" href="#">Telusko Job Portal Web App</a>
+        <a class="navbar-brand fs-1 fw-medium" href="#">Job Portal Web App</a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false"
@@ -69,7 +69,7 @@
                     <h5 class="card-title"><%= myJobPost.getPostProfile() %></h5>
                     <p class="card-text">
                         <strong>Description:</strong>
-                        <%= myJobPost.getPostDesc() %>
+                        <%= myJobPost.getPostDescription() %>
                     </p>
                     <p class="card-text">
                         <strong>Experience Required:</strong>
