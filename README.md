@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://jobapp.onrender.com)
+
 This webapp is a job portal where companies can post jobs and job seekers can applies to job postings.
 Stack: Java for backend
 Framework: Spring Boot
