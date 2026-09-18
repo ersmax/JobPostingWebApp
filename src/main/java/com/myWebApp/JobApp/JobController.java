@@ -29,6 +29,7 @@ public class JobController {
     @PostMapping("/handleForm")
     public String handleForm(JobPost jobPost) {
         // jobPost is a DTO
+        // @ModelAttribute("jobPost") JobPost jobPost
         jobService.addJob(jobPost);
         return "success";
     }
