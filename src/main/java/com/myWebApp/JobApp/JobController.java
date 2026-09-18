@@ -34,12 +34,21 @@ public class JobController {
     }
 
     @GetMapping("/viewalljobs")
-    public String viewJobs(Model model) {
+    public ModelAndView viewJobs(ModelAndView modelView) {
         List<JobPost> jobs = jobService.getAllJobs();
-        model.addAttribute("jobPosts", jobs);
-        return "viewalljobs";
+        modelView.addObject("jobPosts", jobs);
+        modelView.setViewName("viewalljobs");
+        return modelView;
     }
+
 }
+
+//    @GetMapping("/viewalljobs")
+//    public String viewJobs(Model model) {
+//        List<JobPost> jobs = jobService.getAllJobs();
+//        model.addAttribute("jobPosts", jobs);
+//        return "viewalljobs";
+//    }
 
 //    @RequestMapping(value = "/handleForm", method = RequestMethod.POST)
 //    public String handleForm(JobPost jobPost) {
@@ -47,8 +56,7 @@ public class JobController {
 //    }
 
 //    @PostMapping("/handleForm")
-//    public ModelAndView handleForm(int postId, String postProfile,
-//                                   @RequestParam("postDesc") String postDesc,
+//    public ModelAndView handleForm(int postId, String postProfile, String postDesc,
 //                                   @RequestParam("reqExperience") int requiredExperience,
 //                                   @RequestParam("postTechStack") List<String> postTechStack,
 //                                   ModelAndView modelView) {
@@ -65,8 +73,7 @@ public class JobController {
 
 
 //    @PostMapping("/handleForm")
-//    public String handleForm(int postId, String postProfile,
-//                             @RequestParam("postDesc") String postDesc,
+//    public String handleForm(int postId, String postProfile, String postDesc,
 //                             @RequestParam("reqExperience") int requiredExperience,
 //                             @RequestParam("postTechStack") List<String> postTechStack,
 //                             Model model) {
