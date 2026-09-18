@@ -1,7 +1,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://jobpostingwebapp.onrender.com/)
 
 <p align="center">
-  <img src="main/resources/img/website.gif" alt="example" width="48%" />
+  <img src="src/main/resources/img/website.gif" alt="example" width="48%" />
 </p>
 
 This webapp is a job portal where companies can post jobs and job seekers can applies to job postings.
